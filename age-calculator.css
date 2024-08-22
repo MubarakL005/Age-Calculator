@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-color:hsl(0, 0%, 86%);
+}
+.container{
+    border: 2px solid hsl(0, 0%, 94%);
+    border-radius: 1rem 1rem 10rem 1rem; 
+    border-bottom-right-radius: 100px;
+    padding: 2rem;
+    margin: auto;
+    max-width: 120vh;
+    max-height: 100vh;
+    background-color: #fff;
+}
+
+.input-boxes{
+    display:flex;
+    font-size: 12px;
+    
+    max-width: 300px;
+    font-family: 'Poppins';
+}
+.input-boxes input{
+  width: 150px;
+  padding: 15px;
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+  color: hsl(0, 1%, 44%);
+}
+input::placeholder{
+    font-weight: 600;
+}
+.input-box1,.input-box2, .input-box3{
+    margin: 10px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+.submit{
+    display: flex;
+    align-items: center;
+}
+.submit hr{
+    width: 100%;
+}
+small{
+    color: hsl(0, 100%, 67%);
+}
+.submit .submit-btn{
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    cursor: pointer;
+}
+.age-information{
+    margin: 20px;
+    color: hsl(0, 0%, 8%);
+    font-family: 'Arial';
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.age-information span{
+    color:  hsl(259, 100%, 65%);
+}
+@media screen and (max-width:600px){
+
+}
+    
+
